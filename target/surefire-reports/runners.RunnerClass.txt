@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 62.49 s <<< FAILURE! -- in runners.RunnerClass
+WebstaurantStore Search and Cart Functionality.Search for 'stainless work table' items and verify that each item contains "Table" -- Time elapsed: 39.29 s <<< FAILURE!
+java.lang.AssertionError: 
+Some items do not contain the expected word:
+Failure on page 8: Item title 'Metro CR2430DSS Drive-Thru Order Prep Station with Stainless Steel Shelving - 31 3/4" x 27 3/4" x 65 3/4"' does not contain the word 'Table'.
+	at org.junit.Assert.fail(Assert.java:89)
+	at steps.SearchAndCartManagement.they_should_see_only_items_with_in_the_title(SearchAndCartManagement.java:48)
+	at ✽.they should see only items with "Table" in the title(file:///C:/Users/bozov/OneDrive/Desktop/test/studentTest/src/test/resources/features/search_and_cart_management.feature:5)
+
